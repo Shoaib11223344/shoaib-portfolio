@@ -508,11 +508,7 @@ main {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid transparent;
-  background: var(--color-accent-gradient) border-box;
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  background: var(--color-bg-primary) padding-box, var(--color-accent-gradient) border-box;
 }
 
 .hero__avatar-glow {
